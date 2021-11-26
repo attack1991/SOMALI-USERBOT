@@ -1,4 +1,4 @@
-#    Copyright (C) @SupRemE_AnanD 2021-2022
+#    Copyright (C) @Somalibots 2021-2022
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
@@ -12,10 +12,10 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 #
-#    This Inline Helper Code is solely owned by @SupRemE_AnanD
+#    This Inline Helper Code is solely owned by @Somalibots
 #    You Should Not Copy This Code Without Proper Permission.
 
-# Help Pic feature added by @H1M4N5HU0P
+# Help Pic feature added by @AttackTor and @ YaamiinTor
 
 from math import ceil
 from re import compile
