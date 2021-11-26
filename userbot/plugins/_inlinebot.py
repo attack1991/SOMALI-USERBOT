@@ -78,7 +78,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         builder = event.builder
         result = None
         query = event.text
-        if event.query.user_id == bot.uid and query == "@MafiaBot_Support":
+        if event.query.user_id == bot.uid and query == "@Somalibots":
             rev_text = query[::-1]
             veriler = button(0, sorted(CMD_HELP))
             result = await builder.article(
@@ -98,17 +98,17 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         elif event.text=='':
             result = builder.article(
                 "@MafiaBot_Support",
-                text=f"""**Hey![🤗]({mafia_help_pic}) This is [MafiaBot.](https://t.me/MafiaBot_Support)\nYou can know more about me from the links given below 👇**""",
+                text=f"""**Hey![🤗]({mafia_help_pic}) This is [Somalibots.](https://t.me/Somalibots)\nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/MafiaBot_Support"),
+                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/Somalibots"),
                         custom.Button.url(
-                            "⚡ GROUP ⚡", "https://t.me/MafiaBot_Chit_Chat"
+                            "⚡ ATTACK💎 ", "https://t.me/AttackTor"
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "✨ REPO ✨", "https://github.com/MafiaBotOP/MafiaBot"),
+                            "✨ YAAMIIN 🥀", "https://t.me/YaamiinTor",
                         custom.Button.url
                     (
                             "🔰 TUTORIAL 🔰", "https://youtu.be/aRFWP4_RCaE"
