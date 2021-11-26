@@ -31,10 +31,10 @@ async def _(event):
                 f"{DEFAULTUSER}.\n"
                 "__Let's make this smooth and let me know why you are here.__\n"
                 "**Choose one of the following reasons why you are here:**\n\n"
-                "`1`. To chat with my master\n"
-                "`2`. To give your girlfriend number.\n"
-                "`3`. To enquire something\n"
-                "`4`. To request something\n"
+                "`1`. Bot in group keeyga la iigu xiro rabaa!\n"
+                "`2`. Botki baa iga haleysan oo raba in la ii sameyo.\n"
+                "`3`. Bot magacayga , sawir keyga oo aniga ii qaasa rbaa (Waa lacag\n"
+                "`4`. problems group keeyga ah ayan rabaa in la'iga xaliyo\n"
             )
             ONE = (
                 "__Okay. Your request has been registered. Do not spam my master's inbox.You can expect a reply within 24 light years. He is a busy man, unlike you probably.__\n\n"
