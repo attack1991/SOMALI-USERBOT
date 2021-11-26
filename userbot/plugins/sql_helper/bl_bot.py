@@ -4,7 +4,7 @@ from userbot.plugins.sql_helper import BASE, SESSION
 
 
 class Blockedid(BASE):
-    __tablename__ = "blockedid"
+    __tablename__ = "waad block gareeysay"
     chat_id = Column(String(14), primary_key=True)
 
     def __init__(self, chat_id):
