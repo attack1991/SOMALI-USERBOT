@@ -12,7 +12,7 @@ from userbot.Config import Config
 from . import *
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Mafia User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Somalibots"
 mafia = borg.uid
 
 PICS_STR = []
@@ -20,13 +20,13 @@ PICS_STR = []
 @bot.on(admin_cmd(pattern=r"logo ?(.*)"))
 @bot.on(sudo_cmd(pattern=r"logo ?(.*)", allow_sudo=True))
 async def _(mafiaevent):
-    event = await edit_or_reply(mafiaevent, "`Processing.....`")
-    fnt = await get_font_file(mafiaevent.client, "@D3VIL_FONTSS")
+    event = await edit_or_reply(mafiaevent, "`Raadin.....`")
+    fnt = await get_font_file(mafiaevent.client, "@AttackTor")
     if mafiaevent.reply_to_msg_id:
         rply = await mafiaevent.get_reply_message()
         logo_ = await rply.download_media()
     else:
-        async for i in bot.iter_messages("@D3VIL_GFX_BG", filter=InputMessagesFilterPhotos):
+        async for i in bot.iter_messages("AttackTor", filter=InputMessagesFilterPhotos):
     	    PICS_STR.append(i)
         pic = random.choice(PICS_STR)
         logo_ = await pic.download_media()
